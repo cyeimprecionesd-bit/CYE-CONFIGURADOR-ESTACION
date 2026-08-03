@@ -1,15 +1,48 @@
 body{
     margin:0;
-    font-family:Arial, sans-serif;
     background:#111;
     color:white;
+    font-family:Arial,sans-serif;
+}
+
+.contenedor{
+    max-width:900px;
+    margin:auto;
+    padding:30px;
     text-align:center;
 }
 
-h1{
-    margin-top:50px;
+.producto{
+    width:300px;
+    margin:30px 0;
 }
 
-p{
-    color:#ccc;
+.colores{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin:30px 0;
+}
+
+.color{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    border:none;
+    cursor:pointer;
+}
+
+.negro{background:black;}
+.blanco{background:white;}
+.rojo{background:red;}
+.azul{background:blue;}
+
+.presupuesto{
+    background:#00c853;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
 }
